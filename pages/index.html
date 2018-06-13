@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home</title>
 <!-- core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -987,42 +988,45 @@
 	<div class="container">
 		<div class="section-header">
 			<h2 class="section-title text-center wow fadeInDown">联系我们</h2>
-			<p class="text-center wow fadeInDown">这里要点说明吧？比如怎么打币？ <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<!-- <p class="text-center wow fadeInDown">这里要点说明吧？比如怎么打币？ <br> et dolore magna aliqua. Ut enim ad minim veniam</p> -->
 		</div>
 	</div>
 </section><!--/#get-in-touch-->
 
 
 <section id="contact">
-	<div id="map" style="height:650px" >这里要不要放个公众号的二维码</div>
+	<div id="map" style="height:650px" ></div>
 	<div class="container-wrapper">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-sm-offset-8">
+				<div class="col-md-2 col-md-4 col-xs-8">
 					<div class="contact-form">
-						<h3>Contact Info</h3>
+					<div class="item" style="height:350px;width:400px;background-image: url(images/connect/pro.jpg);"></div>
+					</div>
+				</div>
+				<div class="col-md-2 col-md-4 col-xs-4">
+					<div class="contact-form">
+						<h3>联系我们</h3>
 
 						<address>
-						  <strong>Twitter, Inc.</strong><br>
-						  795 Folsom Ave, Suite 600<br>
-						  San Francisco, CA 94107<br>
-						  <abbr title="Phone">P:</abbr> (123) 456-7890
+						  您若希望参与活动，或有任何问题，可以电子邮件联系我们<br>
+						  <abbr title="Phone">muse618@outlook.com</abbr>
 						</address>
 
-						<form id="main-contact-form" name="contact-form" method="post" action="#">
+						<form id="main-contact-form" name="contact-form" method="post" action="MAILTO:muse618@outlook.com" enctype="text/plain" accept-charset="gb2312">
+							<!-- <div class="form-group">
+								<input type="text" name="name" class="form-control" placeholder="姓名" required>
+							</div> -->
 							<div class="form-group">
-								<input type="text" name="name" class="form-control" placeholder="Name" required>
+								<input type="email" name="email" class="form-control" placeholder="您的邮箱" required>
 							</div>
 							<div class="form-group">
-								<input type="email" name="email" class="form-control" placeholder="Email" required>
+								<input type="text" name="telephone" class="form-control" placeholder="电话" required>
 							</div>
-							<div class="form-group">
-								<input type="text" name="subject" class="form-control" placeholder="Subject" required>
-							</div>
-							<div class="form-group">
-								<textarea name="message" class="form-control" rows="8" placeholder="Message" required></textarea>
-							</div>
-							<button type="submit" class="btn btn-primary">Send Message</button>
+							<!-- <div class="form-group">
+								<textarea name="message" class="form-control" rows="8" placeholder="留言" required></textarea>
+							</div> -->
+							<button type="submit" class="btn btn-primary">发送邮件</button>
 						</form>
 					</div>
 				</div>
